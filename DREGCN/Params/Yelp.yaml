@@ -1,0 +1,56 @@
+ITEM_ID_FIELD: item_id
+TAG_FIELD: tag
+USER_ID_FIELD: user_id
+alter: false
+data_path: ./Data/
+dataset: Yelp
+embedding_size: 128
+epochs: 100
+eval_args:
+  group_by: user
+  mode: full
+  order: RO
+  split:
+    RS:
+    - 0.7
+    - 0.15
+    - 0.15
+eval_batch_size: 16384
+eval_step: 3
+filter_inter_by_user_or_item: false
+learning_rate: 0.0025
+load_col:
+  inter:
+  - user_id
+  - item_id
+  - tag
+  item:
+  - item_id
+  user:
+  - user_id
+m_layers: 5
+metric_decimal_place: 6
+metrics:
+- Recall
+- NDCG
+model: DREGCN
+n_layers: 6
+lrm: 2
+lrn: 3
+alpha: 0.15
+neg_sampling:
+  uniform: 10
+non_negative: false
+reproducibility: true
+seed: 2020
+seq_separator: ','
+stopping_step: 10
+substitute: false
+tag_weight: 0.5
+topk:
+- 10
+- 20
+train_batch_size: 16384
+valid_metric: NDCG@20
+valid_tag: true
+weight_decay: 1.0e-06
