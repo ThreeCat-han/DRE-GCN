@@ -1,0 +1,109 @@
+变体1：
+Trip:
+13 Aug 15:20    INFO  Item Recommendation Task: 
+13 Aug 15:20    INFO  recall@10   : 0.031811
+13 Aug 15:20    INFO  recall@20   : 0.050421
+13 Aug 15:20    INFO  ndcg@10     : 0.018979
+13 Aug 15:20    INFO  ndcg@20     : 0.024342
+13 Aug 15:20    INFO  Explanation Ranking Task:
+13 Aug 15:20    INFO  recall@10   : 0.167951
+13 Aug 15:20    INFO  recall@20   : 0.225668
+13 Aug 15:20    INFO  ndcg@10     : 0.115158
+13 Aug 15:20    INFO  ndcg@20     : 0.132126
+13 Aug 15:20    INFO  Geometric Mean:
+13 Aug 15:20    INFO  recall@10   : 0.073094
+13 Aug 15:20    INFO  recall@20   : 0.106670
+13 Aug 15:20    INFO  ndcg@10     : 0.046750
+13 Aug 15:20    INFO  ndcg@20     : 0.056712
+
+
+变体2：
+17 Aug 11:13    INFO  Item Recommendation Task:
+17 Aug 11:13    INFO  recall@10   : 0.026345
+17 Aug 11:13    INFO  recall@20   : 0.041910
+17 Aug 11:13    INFO  ndcg@10     : 0.014970
+17 Aug 11:13    INFO  ndcg@20     : 0.019359
+17 Aug 11:13    INFO  Explanation Ranking Task:
+17 Aug 11:13    INFO  recall@10   : 0.163386
+17 Aug 11:13    INFO  recall@20   : 0.221015
+17 Aug 11:13    INFO  ndcg@10     : 0.111955
+17 Aug 11:13    INFO  ndcg@20     : 0.128861
+17 Aug 11:13    INFO  Geometric Mean:
+17 Aug 11:13    INFO  recall@10   : 0.065608
+17 Aug 11:13    INFO  recall@20   : 0.096243
+17 Aug 11:13    INFO  ndcg@10     : 0.040939
+17 Aug 11:13    INFO  ndcg@20     : 0.049946
+
+
+变体3：
+19 Aug 01:32    INFO  Item Recommendation Task: 
+19 Aug 01:32    INFO  recall@10   : 0.031715
+19 Aug 01:32    INFO  recall@20   : 0.051114
+19 Aug 01:32    INFO  ndcg@10     : 0.018797
+19 Aug 01:32    INFO  ndcg@20     : 0.024354
+19 Aug 01:32    INFO  Explanation Ranking Task:
+19 Aug 01:32    INFO  recall@10   : 0.145599
+19 Aug 01:32    INFO  recall@20   : 0.197636
+19 Aug 01:32    INFO  ndcg@10     : 0.100664
+19 Aug 01:32    INFO  ndcg@20     : 0.115969
+19 Aug 01:32    INFO  Geometric Mean:
+19 Aug 01:32    INFO  recall@10   : 0.067953
+19 Aug 01:32    INFO  recall@20   : 0.100509
+19 Aug 01:32    INFO  ndcg@10     : 0.043499
+19 Aug 01:32    INFO  ndcg@20     : 0.053144
+
+
+变体4：
+19 Aug 11:28    INFO  Item Recommendation Task: 
+19 Aug 11:28    INFO  recall@10   : 0.026520
+19 Aug 11:28    INFO  recall@20   : 0.043153
+19 Aug 11:28    INFO  ndcg@10     : 0.014937
+19 Aug 11:28    INFO  ndcg@20     : 0.019631
+19 Aug 11:28    INFO  Explanation Ranking Task:
+19 Aug 11:28    INFO  recall@10   : 0.143711
+19 Aug 11:28    INFO  recall@20   : 0.194623
+19 Aug 11:28    INFO  ndcg@10     : 0.099742
+19 Aug 11:28    INFO  ndcg@20     : 0.114722
+19 Aug 11:28    INFO  Geometric Mean:
+19 Aug 11:28    INFO  recall@10   : 0.061735
+19 Aug 11:28    INFO  recall@20   : 0.091644
+19 Aug 11:28    INFO  ndcg@10     : 0.038599
+19 Aug 11:28    INFO  ndcg@20     : 0.047456
+
+
+
+
+相似性权重都加4+6：
+ Item Recommendation Task: 
+18 Aug 13:05    INFO  recall@10   : 0.031891
+18 Aug 13:05    INFO  recall@20   : 0.051011
+18 Aug 13:05    INFO  ndcg@10     : 0.018982
+18 Aug 13:05    INFO  ndcg@20     : 0.024473
+18 Aug 13:05    INFO  Explanation Ranking Task:
+18 Aug 13:05    INFO  recall@10   : 0.170336
+18 Aug 13:05    INFO  recall@20   : 0.228478
+18 Aug 13:05    INFO  ndcg@10     : 0.117313
+18 Aug 13:05    INFO  ndcg@20     : 0.134397
+18 Aug 13:05    INFO  Geometric Mean:
+18 Aug 13:05    INFO  recall@10   : 0.073703
+18 Aug 13:05    INFO  recall@20   : 0.107958
+18 Aug 13:05    INFO  ndcg@10     : 0.047189
+18 Aug 13:05    INFO  ndcg@20     : 0.057351
+
+解释引导加到第五层
+19 Aug 21:00    INFO  Item Recommendation Task: 
+19 Aug 21:00    INFO  recall@10   : 0.032038
+19 Aug 21:00    INFO  recall@20   : 0.051409
+19 Aug 21:00    INFO  ndcg@10     : 0.019012
+19 Aug 21:00    INFO  ndcg@20     : 0.024556
+19 Aug 21:00    INFO  Explanation Ranking Task:
+19 Aug 21:00    INFO  recall@10   : 0.167882
+19 Aug 21:00    INFO  recall@20   : 0.226436
+19 Aug 21:00    INFO  ndcg@10     : 0.115627
+19 Aug 21:00    INFO  ndcg@20     : 0.132805
+19 Aug 21:00    INFO  Geometric Mean:
+19 Aug 21:00    INFO  recall@10   : 0.073339
+19 Aug 21:00    INFO  recall@20   : 0.107893
+19 Aug 21:00    INFO  ndcg@10     : 0.046886
+19 Aug 21:00    INFO  ndcg@20     : 0.057107
+

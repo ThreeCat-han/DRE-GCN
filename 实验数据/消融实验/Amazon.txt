@@ -1,0 +1,111 @@
+变体1：
+13 Aug 11:04    INFO  Item Recommendation Task:
+13 Aug 11:04    INFO  recall@10   : 0.055321
+13 Aug 11:04    INFO  recall@20   : 0.086941
+13 Aug 11:04    INFO  ndcg@10     : 0.029557
+13 Aug 11:04    INFO  ndcg@20     : 0.037898
+13 Aug 11:04    INFO  Explanation Ranking Task:
+13 Aug 11:04    INFO  recall@10   : 0.399778
+13 Aug 11:04    INFO  recall@20   : 0.477465
+13 Aug 11:04    INFO  ndcg@10     : 0.297186
+13 Aug 11:04    INFO  ndcg@20     : 0.318354
+13 Aug 11:04    INFO  Geometric Mean:
+13 Aug 11:04    INFO  recall@10   : 0.148715
+13 Aug 11:04    INFO  recall@20   : 0.203743
+13 Aug 11:04    INFO  ndcg@10     : 0.093723
+13 Aug 11:04    INFO  ndcg@20     : 0.109841
+
+变体2：
+15 Aug 10:27    INFO  Item Recommendation Task: 
+15 Aug 10:27    INFO  recall@10   : 0.054193
+15 Aug 10:27    INFO  recall@20   : 0.086711
+15 Aug 10:27    INFO  ndcg@10     : 0.029569
+15 Aug 10:27    INFO  ndcg@20     : 0.038054
+15 Aug 10:27    INFO  Explanation Ranking Task:
+15 Aug 10:27    INFO  recall@10   : 0.406656
+15 Aug 10:27    INFO  recall@20   : 0.484022
+15 Aug 10:27    INFO  ndcg@10     : 0.304643
+15 Aug 10:27    INFO  ndcg@20     : 0.325758
+15 Aug 10:27    INFO  Geometric Mean:
+15 Aug 10:27    INFO  recall@10   : 0.148452
+15 Aug 10:27    INFO  recall@20   : 0.204866
+15 Aug 10:27    INFO  ndcg@10     : 0.094910
+15 Aug 10:27    INFO  ndcg@20     : 0.111339
+
+
+变体3：
+15 Aug 11:33    INFO  Item Recommendation Task: 
+15 Aug 11:33    INFO  recall@10   : 0.055082
+15 Aug 11:33    INFO  recall@20   : 0.088290
+15 Aug 11:33    INFO  ndcg@10     : 0.029905
+15 Aug 11:33    INFO  ndcg@20     : 0.038645
+15 Aug 11:33    INFO  Explanation Ranking Task:
+15 Aug 11:33    INFO  recall@10   : 0.389268
+15 Aug 11:33    INFO  recall@20   : 0.465040
+15 Aug 11:33    INFO  ndcg@10     : 0.286587
+15 Aug 11:33    INFO  ndcg@20     : 0.307231
+15 Aug 11:33    INFO  Geometric Mean:
+15 Aug 11:33    INFO  recall@10   : 0.146430
+15 Aug 11:33    INFO  recall@20   : 0.202629
+15 Aug 11:33    INFO  ndcg@10     : 0.092576
+15 Aug 11:33    INFO  ndcg@20     : 0.108963
+
+
+
+变体4：
+15 Aug 12:20    INFO  Item Recommendation Task: 
+15 Aug 12:20    INFO  recall@10   : 0.052724
+15 Aug 12:20    INFO  recall@20   : 0.085187
+15 Aug 12:20    INFO  ndcg@10     : 0.028902
+15 Aug 12:20    INFO  ndcg@20     : 0.037552
+15 Aug 12:20    INFO  Explanation Ranking Task:
+15 Aug 12:20    INFO  recall@10   : 0.377926
+15 Aug 12:20    INFO  recall@20   : 0.451194
+15 Aug 12:20    INFO  ndcg@10     : 0.278710
+15 Aug 12:20    INFO  ndcg@20     : 0.298801
+15 Aug 12:20    INFO  Geometric Mean:
+15 Aug 12:20    INFO  recall@10   : 0.141159
+15 Aug 12:20    INFO  recall@20   : 0.196051
+15 Aug 12:20    INFO  ndcg@10     : 0.089751
+15 Aug 12:20    INFO  ndcg@20     : 0.105927
+
+
+
+
+
+
+
+
+
+
+
+关于这个上面用原来的解释引导方法提升过小问题，要不试试在初始化的时候就不要用解释排序任务卷积完的嵌入。而是直接用eU0+ea0, ei0+ea0
+
+
+
+
+
+
+
+
+如果我现在正在试的做法就是相当于usertag_embeddings=输入的user_emb的话，那要不考虑直接就把ua_u_emb这种作为输入得了
+
+
+
+
+为什么把uia_embeddings = torch.cat([ua_u_emb, ia_i_emb], dim=0) ，和([ua_u_emb, 、ia_i_emb], 分开比性能不一样呢：
+15 Aug 21:31    INFO  Item Recommendation Task: 
+15 Aug 21:31    INFO  recall@10   : 0.054762
+15 Aug 21:31    INFO  recall@20   : 0.086944
+15 Aug 21:31    INFO  ndcg@10     : 0.030087
+15 Aug 21:31    INFO  ndcg@20     : 0.038665
+15 Aug 21:31    INFO  Explanation Ranking Task:
+15 Aug 21:31    INFO  recall@10   : 0.413662
+15 Aug 21:31    INFO  recall@20   : 0.487420
+15 Aug 21:31    INFO  ndcg@10     : 0.308122
+15 Aug 21:31    INFO  ndcg@20     : 0.328362
+15 Aug 21:31    INFO  Geometric Mean:
+15 Aug 21:31    INFO  recall@10   : 0.150509
+15 Aug 21:31    INFO  recall@20   : 0.205860
+15 Aug 21:31    INFO  ndcg@10     : 0.096283
+15 Aug 21:31    INFO  ndcg@20     : 0.112677

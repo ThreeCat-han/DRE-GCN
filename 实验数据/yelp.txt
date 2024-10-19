@@ -1,0 +1,381 @@
+原版yelp:（n+m）
+2+2:
+23 Jun 19:01    INFO  Item Recommendation Task:
+23 Jun 19:01    INFO  recall@10   : 0.048407
+23 Jun 19:01    INFO  recall@20   : 0.079578
+23 Jun 19:01    INFO  ndcg@10     : 0.026269
+23 Jun 19:01    INFO  ndcg@20     : 0.034584
+
+3+3：
+24 Jun 00:48    INFO  Item Recommendation Task:
+24 Jun 00:48    INFO  recall@10   : 0.047983
+24 Jun 00:48    INFO  recall@20   : 0.079606
+24 Jun 00:48    INFO  ndcg@10     : 0.025838
+24 Jun 00:48    INFO  ndcg@20     : 0.034273
+24 Jun 00:48    INFO  Explanation Ranking Task:
+24 Jun 00:48    INFO  recall@10   : 0.168678
+24 Jun 00:48    INFO  recall@20   : 0.238730
+24 Jun 00:48    INFO  ndcg@10     : 0.104212
+24 Jun 00:48    INFO  ndcg@20     : 0.123520
+24 Jun 00:48    INFO  Geometric Mean:
+24 Jun 00:48    INFO  recall@10   : 0.089965
+24 Jun 00:48    INFO  recall@20   : 0.137856
+24 Jun 00:48    INFO  ndcg@10     : 0.051891
+24 Jun 00:48    INFO  ndcg@20     : 0.065065
+
+3+2:
+24 Jun 14:54    INFO  Item Recommendation Task:
+24 Jun 14:54    INFO  recall@10   : 0.048837
+24 Jun 14:54    INFO  recall@20   : 0.079157
+24 Jun 14:54    INFO  ndcg@10     : 0.026011
+24 Jun 14:54    INFO  ndcg@20     : 0.034123
+24 Jun 14:54    INFO  Explanation Ranking Task:
+24 Jun 14:54    INFO  recall@10   : 0.173988
+24 Jun 14:54    INFO  recall@20   : 0.244568
+24 Jun 14:54    INFO  ndcg@10     : 0.107844
+24 Jun 14:54    INFO  ndcg@20     : 0.127316
+24 Jun 14:54    INFO  Geometric Mean:
+24 Jun 14:54    INFO  recall@10   : 0.092179
+24 Jun 14:54    INFO  recall@20   : 0.139138
+24 Jun 14:54    INFO  ndcg@10     : 0.052963
+24 Jun 14:54    INFO  ndcg@20     : 0.065912
+
+3+4:
+ Jun 04:11    INFO  recall@10   : 0.047423
+25 Jun 04:11    INFO  recall@20   : 0.079241
+25 Jun 04:11    INFO  ndcg@10     : 0.025354
+25 Jun 04:11    INFO  ndcg@20     : 0.033835
+25 Jun 04:11    INFO  Explanation Ranking Task:
+25 Jun 04:11    INFO  recall@10   : 0.161233
+25 Jun 04:11    INFO  recall@20   : 0.228843
+25 Jun 04:11    INFO  ndcg@10     : 0.099310
+25 Jun 04:11    INFO  ndcg@20     : 0.117930
+25 Jun 04:11    INFO  Geometric Mean:
+25 Jun 04:11    INFO  recall@10   : 0.087442
+25 Jun 04:11    INFO  recall@20   : 0.134662
+25 Jun 04:11    INFO  ndcg@10     : 0.050179
+25 Jun 04:11    INFO  ndcg@20     : 0.063168
+
+2+3：
+24 Jun 21:28    INFO  Item Recommendation Task:
+24 Jun 21:28    INFO  recall@10   : 0.049035
+24 Jun 21:28    INFO  recall@20   : 0.079510
+24 Jun 21:28    INFO  ndcg@10     : 0.026508
+24 Jun 21:28    INFO  ndcg@20     : 0.034657
+24 Jun 21:28    INFO  Explanation Ranking Task:
+24 Jun 21:28    INFO  recall@10   : 0.170168
+24 Jun 21:28    INFO  recall@20   : 0.240402
+24 Jun 21:28    INFO  ndcg@10     : 0.105185
+24 Jun 21:28    INFO  ndcg@20     : 0.124548
+24 Jun 21:28    INFO  Geometric Mean:
+24 Jun 21:28    INFO  recall@10   : 0.091347
+24 Jun 21:28    INFO  recall@20   : 0.138255
+24 Jun 21:28    INFO  ndcg@10     : 0.052804
+24 Jun 21:28    INFO  ndcg@20     : 0.065700
+
+5+5:
+25 Jun 20:14    INFO  recall@10   : 0.041204
+25 Jun 20:14    INFO  recall@20   : 0.068238
+25 Jun 20:14    INFO  ndcg@10     : 0.021790
+25 Jun 20:14    INFO  ndcg@20     : 0.028979
+25 Jun 20:14    INFO  Explanation Ranking Task:
+25 Jun 20:14    INFO  recall@10   : 0.150927
+25 Jun 20:14    INFO  recall@20   : 0.216037
+25 Jun 20:14    INFO  ndcg@10     : 0.092502
+25 Jun 20:14    INFO  ndcg@20     : 0.110423
+25 Jun 20:14    INFO  Geometric Mean:
+25 Jun 20:14    INFO  recall@10   : 0.078859
+25 Jun 20:14    INFO  recall@20   : 0.121416
+25 Jun 20:14    INFO  ndcg@10     : 0.044896
+25 Jun 20:14    INFO  ndcg@20     : 0.056568
+
+
+
+
+改进版2+2：23 Jun 19:14    INFO  Item Recommendation Task:
+23 Jun 19:14    INFO  recall@10   : 0.048410
+23 Jun 19:14    INFO  recall@20   : 0.079930
+23 Jun 19:14    INFO  ndcg@10     : 0.026278
+23 Jun 19:14    INFO  ndcg@20     : 0.034697
+
+改进版3+3（这点提升来自UI中的权重）：
+23 Jun 22:46    INFO  Item Recommendation Task:
+23 Jun 22:46    INFO  recall@10   : 0.048840
+23 Jun 22:46    INFO  recall@20   : 0.080433
+23 Jun 22:46    INFO  ndcg@10     : 0.026250
+23 Jun 22:46    INFO  ndcg@20     : 0.034706
+ 
+
+改进版4+4（UA残差UI权重）：
+24 Jun 09:54    INFO  Item Recommendation Task: 
+24 Jun 09:54    INFO  recall@10   : 0.046856
+24 Jun 09:54    INFO  recall@20   : 0.076769
+24 Jun 09:54    INFO  ndcg@10     : 0.024856
+24 Jun 09:54    INFO  ndcg@20     : 0.032820
+24 Jun 09:54    INFO  Explanation Ranking Task:
+24 Jun 09:54    INFO  recall@10   : 0.161227
+24 Jun 09:54    INFO  recall@20   : 0.228921
+24 Jun 09:54    INFO  ndcg@10     : 0.099406
+24 Jun 09:54    INFO  ndcg@20     : 0.118016
+24 Jun 09:54    INFO  Geometric Mean:
+24 Jun 09:54    INFO  recall@10   : 0.086916
+24 Jun 09:54    INFO  recall@20   : 0.132567
+24 Jun 09:54    INFO  ndcg@10     : 0.049707
+24 Jun 09:54    INFO  ndcg@20     : 0.062236
+
+改进版5+5（UA残差UI权重）：
+24 Jun 03:07    INFO  Item Recommendation Task: 
+24 Jun 03:07    INFO  recall@10   : 0.044348
+24 Jun 03:07    INFO  recall@20   : 0.071494
+24 Jun 03:07    INFO  ndcg@10     : 0.023273
+24 Jun 03:07    INFO  ndcg@20     : 0.030497
+24 Jun 03:07    INFO  Explanation Ranking Task:
+24 Jun 03:07    INFO  recall@10   : 0.157509
+24 Jun 03:07    INFO  recall@20   : 0.223254
+24 Jun 03:07    INFO  ndcg@10     : 0.096475
+24 Jun 03:07    INFO  ndcg@20     : 0.114596
+24 Jun 03:07    INFO  Geometric Mean:
+24 Jun 03:07    INFO  recall@10   : 0.083578
+24 Jun 03:07    INFO  recall@20   : 0.126338
+24 Jun 03:07    INFO  ndcg@10     : 0.047384
+24 Jun 03:07    INFO  ndcg@20     : 0.059117
+
+改进版5+5（UAUI残差UI权重）lr都等于4：
+24 Jun 14:08    INFO  Item Recommendation Task: 
+24 Jun 14:08    INFO  recall@10   : 0.048156
+24 Jun 14:08    INFO  recall@20   : 0.078194
+24 Jun 14:08    INFO  ndcg@10     : 0.025644
+24 Jun 14:08    INFO  ndcg@20     : 0.033601
+24 Jun 14:08    INFO  Explanation Ranking Task:
+24 Jun 14:08    INFO  recall@10   : 0.159397
+24 Jun 14:08    INFO  recall@20   : 0.225363
+24 Jun 14:08    INFO  ndcg@10     : 0.097976
+24 Jun 14:08    INFO  ndcg@20     : 0.116143
+24 Jun 14:08    INFO  Geometric Mean:
+24 Jun 14:08    INFO  recall@10   : 0.087612
+24 Jun 14:08    INFO  recall@20   : 0.132748
+24 Jun 14:08    INFO  ndcg@10     : 0.050125
+24 Jun 14:08    INFO  ndcg@20     : 0.062470
+
+改进版5+5（UAUI残差UI权重）lr等于m3、n4：
+
+24 Jun 20:20    INFO  Item Recommendation Task: 
+24 Jun 20:20    INFO  recall@10   : 0.048072 
+24 Jun 20:20    INFO  recall@20   : 0.078481
+24 Jun 20:20    INFO  ndcg@10     : 0.025635 
+24 Jun 20:20    INFO  ndcg@20     : 0.033683
+24 Jun 20:20    INFO  Explanation Ranking Task:
+24 Jun 20:20    INFO  recall@10   : 0.171137
+24 Jun 20:20    INFO  recall@20   : 0.238916
+24 Jun 20:20    INFO  ndcg@10     : 0.105709
+24 Jun 20:20    INFO  ndcg@20     : 0.124423
+24 Jun 20:20    INFO  Geometric Mean:
+24 Jun 20:20    INFO  recall@10   : 0.090702
+24 Jun 20:20    INFO  recall@20   : 0.136932
+24 Jun 20:20    INFO  ndcg@10     : 0.052056
+24 Jun 20:20    INFO  ndcg@20     : 0.064737
+
+
+
+改进5+5，lr=m4,n3
+
+25 Jun 01:52    INFO  Item Recommendation Task: 
+25 Jun 01:52    INFO  recall@10   : 0.052627
+25 Jun 01:52    INFO  recall@20   : 0.084230
+25 Jun 01:52    INFO  ndcg@10     : 0.028251
+25 Jun 01:52    INFO  ndcg@20     : 0.036682
+25 Jun 01:52    INFO  Explanation Ranking Task:
+25 Jun 01:52    INFO  recall@10   : 0.161576
+25 Jun 01:52    INFO  recall@20   : 0.227698
+25 Jun 01:52    INFO  ndcg@10     : 0.099870
+25 Jun 01:52    INFO  ndcg@20     : 0.118093
+25 Jun 01:52    INFO  Geometric Mean:
+25 Jun 01:52    INFO  recall@10   : 0.092213
+25 Jun 01:52    INFO  recall@20   : 0.138488
+25 Jun 01:52    INFO  ndcg@10     : 0.053117
+25 Jun 01:52    INFO  ndcg@20     : 0.065817
+
+论文中的最佳原版：0.0492 0.0810 0.0263 0.0348 0.1738 0.2437 0.1078 0.1270 0.0925 0.1405 0.0533 0.0665
+
+改进5+6，lr=m4,n3
+
+25 Jun 19:08    INFO  recall@10   : 0.051099
+25 Jun 19:08    INFO  recall@20   : 0.083482
+25 Jun 19:08    INFO  ndcg@10     : 0.027643
+25 Jun 19:08    INFO  ndcg@20     : 0.036253
+25 Jun 19:08    INFO  Explanation Ranking Task:
+25 Jun 19:08    INFO  recall@10   : 0.160192
+25 Jun 19:08    INFO  recall@20   : 0.224834
+25 Jun 19:08    INFO  ndcg@10     : 0.098577
+25 Jun 19:08    INFO  ndcg@20     : 0.116442
+25 Jun 19:08    INFO  Geometric Mean:
+25 Jun 19:08    INFO  recall@10   : 0.090475
+25 Jun 19:08    INFO  recall@20   : 0.137002
+25 Jun 19:08    INFO  ndcg@10     : 0.052201
+25 Jun 19:08    INFO  ndcg@20     : 0.064972
+
+改进4+5，lr=m4,n3
+26 Jun 00:20    INFO  Item Recommendation Task: 
+26 Jun 00:20    INFO  recall@10   : 0.051432
+26 Jun 00:20    INFO  recall@20   : 0.082665
+26 Jun 00:20    INFO  ndcg@10     : 0.027386
+26 Jun 00:20    INFO  ndcg@20     : 0.035707
+26 Jun 00:20    INFO  Explanation Ranking Task:
+26 Jun 00:20    INFO  recall@10   : 0.161266
+26 Jun 00:20    INFO  recall@20   : 0.227725
+26 Jun 00:20    INFO  ndcg@10     : 0.099458
+26 Jun 00:20    INFO  ndcg@20     : 0.117736
+26 Jun 00:20    INFO  Geometric Mean:
+26 Jun 00:20    INFO  recall@10   : 0.091073
+26 Jun 00:20    INFO  recall@20   : 0.137204
+26 Jun 00:20    INFO  ndcg@10     : 0.052190
+26 Jun 00:20    INFO  ndcg@20     : 0.064838
+
+
+lr都等于3，5+5：
+19 Jul 18:40    INFO  Item Recommendation Task: 
+19 Jul 18:40    INFO  recall@10   : 0.052314
+19 Jul 18:40    INFO  recall@20   : 0.084478
+19 Jul 18:40    INFO  ndcg@10     : 0.028097
+19 Jul 18:40    INFO  ndcg@20     : 0.036667
+19 Jul 18:40    INFO  Explanation Ranking Task:
+19 Jul 18:40    INFO  recall@10   : 0.173268
+19 Jul 18:40    INFO  recall@20   : 0.240912
+19 Jul 18:40    INFO  ndcg@10     : 0.106985
+19 Jul 18:40    INFO  ndcg@20     : 0.125692
+19 Jul 18:40    INFO  Geometric Mean:
+19 Jul 18:40    INFO  recall@10   : 0.095207
+19 Jul 18:40    INFO  recall@20   : 0.142660
+19 Jul 18:40    INFO  ndcg@10     : 0.054827
+19 Jul 18:40    INFO  ndcg@20     : 0.067888
+
+lrm=2,lrn=3:
+5+5:
+19 Jul 21:10    INFO  Item Recommendation Task: 
+19 Jul 21:10    INFO  recall@10   : 0.051855
+19 Jul 21:10    INFO  recall@20   : 0.083469
+19 Jul 21:10    INFO  ndcg@10     : 0.027688
+19 Jul 21:10    INFO  ndcg@20     : 0.036110
+19 Jul 21:10    INFO  Explanation Ranking Task:
+19 Jul 21:10    INFO  recall@10   : 0.179050
+19 Jul 21:10    INFO  recall@20   : 0.246879
+19 Jul 21:10    INFO  ndcg@10     : 0.111801
+19 Jul 21:10    INFO  ndcg@20     : 0.130495
+19 Jul 21:10    INFO  Geometric Mean:
+19 Jul 21:10    INFO  recall@10   : 0.096357
+19 Jul 21:10    INFO  recall@20   : 0.143550
+19 Jul 21:10    INFO  ndcg@10     : 0.055638
+19 Jul 21:10    INFO  ndcg@20     : 0.068645
+
+m4n6:
+20 Jul 22:38    INFO  Item Recommendation Task: 
+20 Jul 22:38    INFO  recall@10   : 0.051241
+20 Jul 22:38    INFO  recall@20   : 0.083502
+20 Jul 22:38    INFO  ndcg@10     : 0.027818
+20 Jul 22:38    INFO  ndcg@20     : 0.036402
+20 Jul 22:38    INFO  Explanation Ranking Task:
+20 Jul 22:38    INFO  recall@10   : 0.181063
+20 Jul 22:38    INFO  recall@20   : 0.248926
+20 Jul 22:38    INFO  ndcg@10     : 0.112917
+20 Jul 22:38    INFO  ndcg@20     : 0.131629
+20 Jul 22:38    INFO  Geometric Mean:
+20 Jul 22:38    INFO  recall@10   : 0.096322
+20 Jul 22:38    INFO  recall@20   : 0.144173
+20 Jul 22:38    INFO  ndcg@10     : 0.056046
+20 Jul 22:38    INFO  ndcg@20     : 0.069221
+
+m4n5
+21 Jul 02:22    INFO  Item Recommendation Task: 
+21 Jul 02:22    INFO  recall@10   : 0.051854
+21 Jul 02:22    INFO  recall@20   : 0.084761
+21 Jul 02:22    INFO  ndcg@10     : 0.027951
+21 Jul 02:22    INFO  ndcg@20     : 0.036759
+21 Jul 02:22    INFO  Explanation Ranking Task:
+21 Jul 02:22    INFO  recall@10   : 0.179879
+21 Jul 02:22    INFO  recall@20   : 0.248855
+21 Jul 02:22    INFO  ndcg@10     : 0.113003
+21 Jul 02:22    INFO  ndcg@20     : 0.131991
+21 Jul 02:22    INFO  Geometric Mean:
+21 Jul 02:22    INFO  recall@10   : 0.096579
+21 Jul 02:22    INFO  recall@20   : 0.145235
+21 Jul 02:22    INFO  ndcg@10     : 0.056201
+21 Jul 02:22    INFO  ndcg@20     : 0.069655
+
+
+m5n6:
+20 Jul 10:35    INFO  Item Recommendation Task: 
+20 Jul 10:35    INFO  recall@10   : 0.051971
+20 Jul 10:35    INFO  recall@20   : 0.084314
+20 Jul 10:35    INFO  ndcg@10     : 0.028202
+20 Jul 10:35    INFO  ndcg@20     : 0.036827
+20 Jul 10:35    INFO  Explanation Ranking Task:
+20 Jul 10:35    INFO  recall@10   : 0.179961
+20 Jul 10:35    INFO  recall@20   : 0.247737
+20 Jul 10:35    INFO  ndcg@10     : 0.112435
+20 Jul 10:35    INFO  ndcg@20     : 0.131144
+20 Jul 10:35    INFO  Geometric Mean:
+20 Jul 10:35    INFO  recall@10   : 0.096710
+20 Jul 10:35    INFO  recall@20   : 0.144526
+20 Jul 10:35    INFO  ndcg@10     : 0.056311
+20 Jul 10:35    INFO  ndcg@20     : 0.069496
+
+m5n7:
+21 Jul 12:25    INFO  Item Recommendation Task: 
+21 Jul 12:25    INFO  recall@10   : 0.049693
+21 Jul 12:25    INFO  recall@20   : 0.081224
+21 Jul 12:25    INFO  ndcg@10     : 0.026806
+21 Jul 12:25    INFO  ndcg@20     : 0.035213
+21 Jul 12:25    INFO  Explanation Ranking Task:
+21 Jul 12:25    INFO  recall@10   : 0.180783
+21 Jul 12:25    INFO  recall@20   : 0.249533
+21 Jul 12:25    INFO  ndcg@10     : 0.113215
+21 Jul 12:25    INFO  ndcg@20     : 0.132191
+21 Jul 12:25    INFO  Geometric Mean:
+21 Jul 12:25    INFO  recall@10   : 0.094782
+21 Jul 12:25    INFO  recall@20   : 0.142366
+21 Jul 12:25    INFO  ndcg@10     : 0.055089
+21 Jul 12:25    INFO  ndcg@20     : 0.068226
+
+
+
+6+6：
+20 Jul 18:10    INFO  Item Recommendation Task: 
+20 Jul 18:10    INFO  recall@10   : 0.051019
+20 Jul 18:10    INFO  recall@20   : 0.083691
+20 Jul 18:10    INFO  ndcg@10     : 0.027659
+20 Jul 18:10    INFO  ndcg@20     : 0.036362
+20 Jul 18:10    INFO  Explanation Ranking Task:
+20 Jul 18:10    INFO  recall@10   : 0.178461
+20 Jul 18:10    INFO  recall@20   : 0.244341
+20 Jul 18:10    INFO  ndcg@10     : 0.111175
+20 Jul 18:10    INFO  ndcg@20     : 0.129353
+20 Jul 18:10    INFO  Geometric Mean:
+20 Jul 18:10    INFO  recall@10   : 0.095420
+20 Jul 18:10    INFO  recall@20   : 0.143000
+20 Jul 18:10    INFO  ndcg@10     : 0.055453
+20 Jul 18:10    INFO  ndcg@20     : 0.068582
+
+
+lrm=1,lrn=3:
+5+5:
+19 Jul 23:32    INFO  recall@10   : 0.048835
+19 Jul 23:32    INFO  recall@20   : 0.080987
+19 Jul 23:32    INFO  ndcg@10     : 0.026401
+19 Jul 23:32    INFO  ndcg@20     : 0.035015
+19 Jul 23:32    INFO  Explanation Ranking Task:
+19 Jul 23:32    INFO  recall@10   : 0.156328
+19 Jul 23:32    INFO  recall@20   : 0.214762
+19 Jul 23:32    INFO  ndcg@10     : 0.098465
+19 Jul 23:32    INFO  ndcg@20     : 0.114636
+19 Jul 23:32    INFO  Geometric Mean:
+19 Jul 23:32    INFO  recall@10   : 0.087374
+19 Jul 23:32    INFO  recall@20   : 0.131882
+19 Jul 23:32    INFO  ndcg@10     : 0.050986
+19 Jul 23:32    INFO  ndcg@20     : 0.063356
+
+
+
+
+
+
+

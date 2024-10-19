@@ -1,0 +1,103 @@
+AMTV：
+n+m
+3+3：
+0.04980
+
+4+4：
+15 Jun 15:21    INFO  recall@10   : 0.052513
+15 Jun 15:21    INFO  recall@20   : 0.085150
+15 Jun 15:21    INFO  ndcg@10     : 0.028956
+15 Jun 15:21    INFO  ndcg@20     : 0.037630
+15 Jun 15:21    INFO  Explanation Ranking Task:
+15 Jun 15:21    INFO  recall@10   : 0.397656
+15 Jun 15:21    INFO  recall@20   : 0.474474
+15 Jun 15:21    INFO  ndcg@10     : 0.293956
+15 Jun 15:21    INFO  ndcg@20     : 0.314979
+15 Jun 15:21    INFO  Geometric Mean:
+15 Jun 15:21    INFO  recall@10   : 0.144506
+15 Jun 15:21    INFO  recall@20   : 0.201001
+15 Jun 15:21    INFO  ndcg@10     : 0.092259
+15 Jun 15:21    INFO  ndcg@20     : 0.108870
+
+4+3：
+15 Jun 16:46    INFO  Item Recommendation Task:
+15 Jun 16:46    INFO  recall@10   : 0.053412
+15 Jun 16:46    INFO  recall@20   : 0.084462
+15 Jun 16:46    INFO  ndcg@10     : 0.028509
+15 Jun 16:46    INFO  ndcg@20     : 0.036708
+15 Jun 16:46    INFO  Explanation Ranking Task:
+15 Jun 16:46    INFO  recall@10   : 0.399226
+15 Jun 16:46    INFO  recall@20   : 0.474526
+15 Jun 16:46    INFO  ndcg@10     : 0.295750
+15 Jun 16:46    INFO  ndcg@20     : 0.316369
+15 Jun 16:46    INFO  Geometric Mean:
+15 Jun 16:46    INFO  recall@10   : 0.146026
+15 Jun 16:46    INFO  recall@20   : 0.200198
+15 Jun 16:46    INFO  ndcg@10     : 0.091823
+15 Jun 16:46    INFO  ndcg@20     : 0.107765
+
+原版5+3:
+15 Jun 20:10    INFO  Item Recommendation Task:
+15 Jun 20:10    INFO  recall@10   : 0.053092
+15 Jun 20:10    INFO  recall@20   : 0.087465
+15 Jun 20:10    INFO  ndcg@10     : 0.028974
+15 Jun 20:10    INFO  ndcg@20     : 0.038150
+15 Jun 20:10    INFO  Explanation Ranking Task:
+15 Jun 20:10    INFO  recall@10   : 0.407781
+15 Jun 20:10    INFO  recall@20   : 0.482170
+15 Jun 20:10    INFO  ndcg@10     : 0.302571
+15 Jun 20:10    INFO  ndcg@20     : 0.322928
+15 Jun 20:10    INFO  Geometric Mean:
+15 Jun 20:10    INFO  recall@10   : 0.147139
+15 Jun 20:10    INFO  recall@20   : 0.205361
+15 Jun 20:10    INFO  ndcg@10     : 0.093631
+
+原版6+3：
+17 Jun 15:52    INFO  Item Recommendation Task:
+17 Jun 15:52    INFO  recall@10   : 0.053458
+17 Jun 15:52    INFO  recall@20   : 0.086480
+17 Jun 15:52    INFO  ndcg@10     : 0.028370
+17 Jun 15:52    INFO  ndcg@20     : 0.037128
+
+
+原版6+4：
+17 Jun 21:10    INFO  recall@10   : 0.053925
+17 Jun 21:10    INFO  recall@20   : 0.088660
+17 Jun 21:10    INFO  ndcg@10     : 0.029022
+17 Jun 21:10    INFO  ndcg@20     : 0.038187
+
+
+原版6+5：
+17 Jun 23:13    INFO  Item Recommendation Task:
+17 Jun 23:13    INFO  recall@10   : 0.054219
+17 Jun 23:13    INFO  recall@20   : 0.088218
+17 Jun 23:13    INFO  ndcg@10     : 0.029209
+17 Jun 23:13    INFO  ndcg@20     : 0.038125
+
+
+15 Jun 20:10    INFO  ndcg@20     : 0.110994
+原版5+5：
+18 Jun 13:21    INFO  recall@10   : 0.053743
+18 Jun 13:21    INFO  recall@20   : 0.088137
+18 Jun 13:21    INFO  ndcg@10     : 0.029249
+18 Jun 13:21    INFO  ndcg@20     : 0.038325
+
+临时：
+Epoch: 241, Hit Ratio:0.20766  |  Precision:0.19918  |  Recall:0.26994  |  NDCG:0.30287
+
+
+
+
+
+
+22 Jun 00:59    INFO  recall@10   : 0.027197
+22 Jun 00:59    INFO  recall@20   : 0.043635
+22 Jun 00:59    INFO  ndcg@10     : 0.015356
+22 Jun 00:59    INFO  ndcg@20     : 0.019992
+
+
+
+
+
+
+

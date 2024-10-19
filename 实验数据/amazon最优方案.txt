@@ -1,0 +1,90 @@
+lrm=3,lrn=4;5+5(m+n)
+8 Jul 00:39    INFO  recall@10   : 0.054762
+28 Jul 00:39    INFO  recall@20   : 0.086944
+28 Jul 00:39    INFO  ndcg@10     : 0.030087
+28 Jul 00:39    INFO  ndcg@20     : 0.038665
+28 Jul 00:39    INFO  Explanation Ranking Task:
+28 Jul 00:39    INFO  recall@10   : 0.413662
+28 Jul 00:39    INFO  recall@20   : 0.487420
+28 Jul 00:39    INFO  ndcg@10     : 0.308122
+28 Jul 00:39    INFO  ndcg@20     : 0.328362
+28 Jul 00:39    INFO  Geometric Mean:
+28 Jul 00:39    INFO  recall@10   : 0.150509
+28 Jul 00:39    INFO  recall@20   : 0.205860
+28 Jul 00:39    INFO  ndcg@10     : 0.096283
+28 Jul 00:39    INFO  ndcg@20     : 0.112677
+
+
+5+6
+28 Jul 10:03    INFO  Item Recommendation Task: 
+28 Jul 10:03    INFO  recall@10   : 0.054038
+28 Jul 10:03    INFO  recall@20   : 0.089013
+28 Jul 10:03    INFO  ndcg@10     : 0.028854
+28 Jul 10:03    INFO  ndcg@20     : 0.038134
+28 Jul 10:03    INFO  Explanation Ranking Task:
+28 Jul 10:03    INFO  recall@10   : 0.402917
+28 Jul 10:03    INFO  recall@20   : 0.475929
+28 Jul 10:03    INFO  ndcg@10     : 0.299495
+28 Jul 10:03    INFO  ndcg@20     : 0.319545
+28 Jul 10:03    INFO  Geometric Mean:
+28 Jul 10:03    INFO  recall@10   : 0.147556
+28 Jul 10:03    INFO  recall@20   : 0.205825
+28 Jul 10:03    INFO  ndcg@10     : 0.092960
+28 Jul 10:03    INFO  ndcg@20     : 0.110388
+
+6+5
+28 Jul 11:56    INFO  Item Recommendation Task: 
+28 Jul 11:56    INFO  recall@10   : 0.054386
+28 Jul 11:56    INFO  recall@20   : 0.086808
+28 Jul 11:56    INFO  ndcg@10     : 0.029562
+28 Jul 11:56    INFO  ndcg@20     : 0.038169
+28 Jul 11:56    INFO  Explanation Ranking Task:
+28 Jul 11:56    INFO  recall@10   : 0.405333
+28 Jul 11:56    INFO  recall@20   : 0.479019
+28 Jul 11:56    INFO  ndcg@10     : 0.303004
+28 Jul 11:56    INFO  ndcg@20     : 0.323203
+28 Jul 11:56    INFO  Geometric Mean:
+28 Jul 11:56    INFO  recall@10   : 0.148474
+28 Jul 11:56    INFO  recall@20   : 0.203918
+28 Jul 11:56    INFO  ndcg@10     : 0.094644
+28 Jul 11:56    INFO  ndcg@20     : 0.111069
+
+4+5“：
+28 Jul 13:14    INFO  Item Recommendation Task: 
+28 Jul 13:14    INFO  recall@10   : 0.053121
+28 Jul 13:14    INFO  recall@20   : 0.086736
+28 Jul 13:14    INFO  ndcg@10     : 0.029423
+28 Jul 13:14    INFO  ndcg@20     : 0.038333
+28 Jul 13:14    INFO  Explanation Ranking Task:
+28 Jul 13:14    INFO  recall@10   : 0.410321
+28 Jul 13:14    INFO  recall@20   : 0.486051
+28 Jul 13:14    INFO  ndcg@10     : 0.305186
+28 Jul 13:14    INFO  ndcg@20     : 0.325942
+28 Jul 13:14    INFO  Geometric Mean:
+28 Jul 13:14    INFO  recall@10   : 0.147637
+28 Jul 13:14    INFO  recall@20   : 0.205324
+28 Jul 13:14    INFO  ndcg@10     : 0.094760
+28 Jul 13:14    INFO  ndcg@20     : 0.111778
+
+5+4：
+28 Jul 14:36    INFO  Item Recommendation Task: 
+28 Jul 14:36    INFO  recall@10   : 0.052991
+28 Jul 14:36    INFO  recall@20   : 0.083763
+28 Jul 14:36    INFO  ndcg@10     : 0.029340
+28 Jul 14:36    INFO  ndcg@20     : 0.037503
+28 Jul 14:36    INFO  Explanation Ranking Task:
+28 Jul 14:36    INFO  recall@10   : 0.411984
+28 Jul 14:36    INFO  recall@20   : 0.488769
+28 Jul 14:36    INFO  ndcg@10     : 0.307856
+28 Jul 14:36    INFO  ndcg@20     : 0.328831
+28 Jul 14:36    INFO  Geometric Mean:
+28 Jul 14:36    INFO  recall@10   : 0.147755
+28 Jul 14:36    INFO  recall@20   : 0.202338
+28 Jul 14:36    INFO  ndcg@10     : 0.095039
+28 Jul 14:36    INFO  ndcg@20     : 0.111050
+
+
+  
+
+
+JOURNAL OF SYSTEMS AND SOFTWARE这个期刊好像快，2区
